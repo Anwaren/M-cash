@@ -1,2 +1,6 @@
 *.css
+<<<<<<< HEAD
 *.css.map
+=======
+main.css.map
+>>>>>>> c224dde... Faq v1

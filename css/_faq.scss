@@ -1,0 +1,40 @@
+.faq-main{
+    display: flex;
+    background-image: url("../img/faq/faq.png");
+    width: 100%;
+    height: 665px;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+} 
+.faq-font-20{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.faq-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 47px 33px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.faq-grid > div {   
+    text-align: left; 
+}
+
+.faq-button{ 
+    width: 201px;
+    height: 51px;
+    border-radius: 25px;
+    line-height: 51px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    z-index: 1;   
+}
+.faq-margin-top{
+    margin-top: 47px;
+}
