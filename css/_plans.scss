@@ -1,0 +1,89 @@
+.plans-section
+{
+    display: flex;
+    width: 1280px;
+    height: 223px;
+
+    background-color: #3F72AF;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-img-div
+{
+    width: 286px; 
+    height: 223px; 
+    flex-shrink: 0;
+    opacity: 0.2;
+}
+
+.plan-img
+{
+    object-fit: none;
+    width: 100%;
+    height: 100%;
+}
+
+.plan-img-left
+{
+    object-position: right bottom;
+}
+
+.plan-img-right
+{
+    object-position: right top;
+}
+
+.plan-controls-container
+{
+    width: 1280px; 
+    height: 82px; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-basis: 271px; height: 82px;
+}
+
+.plan-control-div
+{
+    margin-left: 15px;
+    margin-right: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plan-control-text
+{
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.plan-control-element
+{
+    width: 271px; 
+    height: 49px;
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.plan-control-element:active, 
+.plan-control-element:focus {
+    outline: none;
+}
+
+.plan-control-button
+{
+    background-color: #3F72AF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0;
+}
