@@ -1,0 +1,43 @@
+.features-section
+{
+    display: flex;
+    width: 1171px;
+    height: 425px;
+    
+    flex-direction: column; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.features-container
+{
+    display: flex;
+    justify-content: space-around;
+    min-height: 295;
+    box-shadow: 0 0 15px rgba(160, 160, 160, 0.5); /* Параметры тени */
+    padding: 10px;
+}
+
+.feature
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 270px; height: 236px;
+}
+
+.feature-header
+{
+    color: #1A1A1A;
+    font-family: "Playfair Display";
+    font-size: 28px;
+}
+
+.feature-text
+{
+    color: #333333;
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+}
