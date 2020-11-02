@@ -1,0 +1,193 @@
+/*Общий контенер на секцию прайсов*/
+.price-main
+{
+    display: flex;
+    width:100%;
+    height: 882px;/*Фиксированная высота*/
+    flex-direction: column; /*Центровка содержимого*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*Контейнер с вариантами прайсов*/
+.price-offers
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Отступы между прайсами*/
+.price-offers > div
+{
+  margin: 14px;  /* and that, will result in a 28px gap */
+}
+
+/*Контейнер для одного прайса*/
+.price-offer
+{
+  box-shadow: 0 0 15px rgba(160, 160, 160, 0.5); /* Параметры тени */
+
+  width: 371px;
+  height: 518px;
+
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+
+/*Кнопка прайса для выбора*/
+.price-button
+{
+  width: 201px;
+  height: 51px;
+  border-radius: 25px;
+  line-height: 51px;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: white;
+
+  z-index: 1;
+  position: absolute;
+  align-self:flex-end
+ 
+}
+
+/*Сводный контейнер для одного прайса и одной кнопки*/
+.offer-with-button
+{
+  width: 372px;
+  height: 541px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content:center;
+}
+
+/*Заголовок прайса*/
+.offer-title
+{
+  width: 100%;
+  height: 90px;
+  line-height: 61px;
+  margin-top: 30px;
+  font-size:  28px;
+  text-align: center;
+  font-family: "Roboto";
+  color: white;
+  align-items: flex-start;
+}
+
+
+.price-wrapper-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 123px;
+    flex-shrink: 0;
+
+}
+
+.price-container
+{
+  display: flex;
+
+  justify-content: center;
+  align-items:  baseline;
+  vertical-align:middle;
+}
+
+/*Ценник прайса*/
+.price-count-text
+{
+  font-size:  42px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+/*Период прайса*/
+.period-price-text
+{
+  font-size:  24px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+/*Валюта прайса*/
+.currency-price-text
+{
+  font-size:  22px;
+  font-weight: bold;
+  font-family: "Roboto";
+  vertical-align: 50%;
+}
+
+
+/*Пунктирный разделитель для цены*/
+.price-separator
+{
+  width: 311px;
+  height: 2px;
+  border-top: 3px dashed black ;
+  align-self: center;
+}
+
+/*Палитры для разделителей*/
+.price-separator-low
+{
+    border-color: var(--light-blue-color);
+}
+
+.price-separator-high
+{
+    border-color: var(--deep-blue-color);
+}
+
+/*Цвета заливки фона в зависимости от типа прайса*/
+.low-offer-background
+{
+  background: var(--light-blue-color);
+}
+
+.high-offer-background
+{
+  background: var(--deep-blue-color);
+}
+
+/*Цвета для текста цены в зависимости от типа прайса*/
+.low-price-text-color
+{
+  color: var(--light-blue-color);
+}
+
+.high-price-text-color
+{
+ color: var(--deep-blue-color);
+}
+
+
+/*Контейнер с опциями прайса*/
+.price-options
+{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  align-items: center;
+  height: 100%;
+}
+
+/*Отдельная опция*/
+.offer-option
+{
+  font-size:  15px;
+  font-family: "Roboto";
+  color: #333333;
+}

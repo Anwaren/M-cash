@@ -3,6 +3,12 @@
     font-family: 'Playfair Display', sans-serif;
 }
 
+:root {
+  --light-blue-color: #3F72AF;
+  --deep-blue-color: #112D4E;
+}
+
+
 .flex-container {
     max-width: 1280px;
     display: flex;
