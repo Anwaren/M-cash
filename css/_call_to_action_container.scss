@@ -1,0 +1,90 @@
+.call_to_action_main
+{
+    width: 100%;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.call-to-action-container
+{
+    width: 757px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.call-to-action-title
+{
+    font-family: "Roboto";
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 37px;
+    height: 37px;
+    padding-top: 5px;
+}
+
+.call-to-action-content
+{
+    font-family: "Roboto";
+    font-size: 18px;
+    opacity: 0.9;
+    color: #FFFFFF;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    width: 532px;
+}
+
+.learn_more_button
+{
+    width: 201px;
+    height: 51px;
+    border-radius: 25px;
+    line-height: 51px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    background: var(--deep-blue-color);
+ 
+}
+
+.call-to-action-container-with-decoration
+{
+    width: 757px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3F72AF;
+    position: relative;
+
+}
+
+.call-to-action-dec-top-left
+{
+    opacity: 0.14901960784313725;
+}
+
+
+.call-to-action-dec-bottom-right
+{
+    opacity: 0.14901960784313725;
+    align-self:flex-end;
+}
+
+.call-to-action-dec-bottom-right img
+{
+    width: 100%;
+    height: 100%;
+}
