@@ -161,11 +161,26 @@
     text-align: center;
 }
 
+
 .header-info-picture-section
 {
     width: 726px; 
-    height: 645px;
+    height: 621px;
 
     background-color: #DBE2EF;
+    position:relative;
+    display: flex;
+    justify-content:center;
 }
 
+.header-info-picture-img
+{
+    position: absolute;
+    bottom: -25px;
+    
+}
+
+.header-info-picture-img img{
+    width: 100%;
+    height: 100%;
+}
